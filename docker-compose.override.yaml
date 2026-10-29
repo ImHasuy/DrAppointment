@@ -1,0 +1,12 @@
+﻿services:
+  backend:
+    build:
+      context: ./backend
+      target: build
+    command: npm run start:dev
+    #    # enable this for debugging
+    #    ports:
+    #      - '9229:9229'
+    volumes:
+      - ./backend/src:/home/node/app/src:rw
+      - ./backend/test:/home/node/app/test:rw

@@ -1,4 +1,7 @@
 ﻿import {DataSource} from "typeorm";
+import {AppointmentEntity} from "../appointments/entities/appointment.entity";
+import {PatientEntity} from "../patient/entities/patient.entity";
+import {ExaminationEntity} from "../examination/entities/examination.entity";
 
 export default new DataSource({
     type: 'mysql',
@@ -7,5 +10,5 @@ export default new DataSource({
     username: process.env['DATABASE_USERNAME'],
     password: process.env['DATABASE_PASSWORD'],
     database: process.env['DATABASE'],
-    entities: [],
+    entities: [AppointmentEntity, PatientEntity, ExaminationEntity],
 });

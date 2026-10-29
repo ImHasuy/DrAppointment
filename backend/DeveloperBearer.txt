@@ -1,0 +1,62 @@
+Public:
+
+{
+    "kty": "RSA",
+    "e": "AQAB",
+    "use": "sig",
+    "kid": "dev-key-1",
+    "alg": "RS256",
+    "n": "ul0yJaLVtQ08-RzL1t2eBxweJKVN5F2-MMX6d50dtbmahxuQWWFxLxwMrfrrOtVf6T2GPXEwIIp2yE3qiFfo4I7oG-SPDHbcHQrEFEyYbypGM3Jh8OYP7lYLIr_vXhKpPdDBGLUNHIIgaBVLokv50zhOAqZNAk6DiebRAWIxaOrs2wEEiCB9a-vthGbdHFF5cCyxq4oNw5d0cYjeVn3_j3-srF7ekttv402qsjLxTi9glBotfGzrXLZM8oGtD3uXjasKBPBND5uWIlYjBYHTy1xVTCr32WhW-vdLF9VYvLquB2Qt6wJmGE7knVcxNaN3u561zmIQyDCGm7_juZJR_w"
+}
+
+
+
+public & private: 
+
+
+
+{
+    "p": "0f_0EnUaQpTBDEz0BI0fkY4kpr-omaLvX_1TvhcjXfqCUnfmSFh7SUlpccurXmfqyhvVaHsr-F3-Cmy08npos-Tewd00Ck_EayqKodHT0MnJQDAU9eNnvs6I4Y8x07h0AP2kdgyu3vS3ORqD3rqLkbkViBVKMsZc3KJ3KRDdQyc",
+    "kty": "RSA",
+    "q": "4y_VAdOLw7XDu6HuSygjLVIzNe7MRfyVz_gU3Akwt7CtJ93SjIm1nsTH0IyuwoE02gn7B19vQ10lyIunqK_VJn62CignQDl4jmlxIwfvjsYKeGUIqWJPEj_5ukepvfVyNQVROJQRFIy8bNwTmbw5xSYKoLLSo0XG3NCJcgCgYWk",
+    "d": "JJVg37R8YSMtIfW-KfqtJ9YkMKtmg_rG-AoVJd_o0iCSLg2CI5mWP1oxPwHvpUf3oPCb5nnOqcSklqN887DWHSbQd5FBZ3_5q5XOcfGrRr80sqq0gTaYUAACBZtJ4Nym7mSJU1FPNpZwyB3OEBj7_LOj1K9SlK5W8f4mbzAYZPDLJchAWCWxNxRpc1Vm8KEajFuKR_gda6VOXlNzMHK_4DrB9vJ3GoAPVA1UiraeCgixw7CkEhz4bi4z1Z_rSGX7OUTOfNqCeWAfOW6R5-JmLL2fjeuHxM5nbMhnEsk1gzrAKJaMVEaA-g4l2VPvb0BpkP8ireVvJzUYHPSXza7pcQ",
+    "e": "AQAB",
+    "use": "sig",
+    "kid": "dev-key-1",
+    "qi": "XA5YNyClreE4VogyGjFTFRsDX_MadGRTzc_eByODdXMvcI_50WlRuGL-4kAygpdFTu33ZSuv42-ccJWeXJt8kDdcdrQ5GSfFm_foAT8XeMMvkw2FZr9us0gVIUU698wUX63-ZzKGc2I9UHf5zLb2r7tG-SxUArKR3aU9uwGHpf4",
+    "dp": "mlTk5vuwxOXVylhzrTSZ0rsILJQGMIMSMRVYCgevMk38oOcFEn4UfRO6rqrj0onEf6xc9mAvPGS3YqnpgZp8gFjfbNJIgJuG2st0_t_aL0Nc6BNuFBeAEzZuWnaGQ_b3KhM-XpOLoMdwMENQTswB7qJ7NHuRACfP70ZnFIMUWVk",
+    "alg": "RS256",
+    "dq": "IVys0w_Vvm-6xpsI-1Bxmf4wNwNSTBTDiz7LEWToGpF_XBNfD_RJD3-mOCHwp--Ba2N70aFaHXJYUhLwE_1-N6Dz6pnq6auG4KLrUlGgBD9g2j08AGPHaM6sRYawjoy0sMSPINfdij8AjJvk5PaXJTRo6yBXflKI2XRmOq-M3cE",
+    "n": "ul0yJaLVtQ08-RzL1t2eBxweJKVN5F2-MMX6d50dtbmahxuQWWFxLxwMrfrrOtVf6T2GPXEwIIp2yE3qiFfo4I7oG-SPDHbcHQrEFEyYbypGM3Jh8OYP7lYLIr_vXhKpPdDBGLUNHIIgaBVLokv50zhOAqZNAk6DiebRAWIxaOrs2wEEiCB9a-vthGbdHFF5cCyxq4oNw5d0cYjeVn3_j3-srF7ekttv402qsjLxTi9glBotfGzrXLZM8oGtD3uXjasKBPBND5uWIlYjBYHTy1xVTCr32WhW-vdLF9VYvLquB2Qt6wJmGE7knVcxNaN3u561zmIQyDCGm7_juZJR_w"
+}
+
+
+
+
+
+Bearer: eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6ImRldi1rZXktMSJ9.eyJzdWIiOiJkZXYtdXNlci0xMjMiLCJuYW1lIjoiTG9jYWwgRGV2ZWxvcGVyIiwicm9sZXMiOlsiYWRtaW4iXSwiaWF0IjoxNzAwMDAwMDAwfQ.iYFtvI2a7eqxZhWYNQhnsTYgFVsZQaGtXqVakuQhF7eOT8ijuOH6HbZ-GO8ee9O0MsfP1-XQPIAN5vKCFqVuLuXdnS0HjMPEhvv5BIt6fTWqzqIe7eXzWK314ZFDbhA0mHIHciw26aGmGUQaDpUgkO9lhoZnQBEEVzItYuJ8Aw8US_IpHu29OGAAXbiX61t9xrt26D5Rm1msyJzCQX97m9IdkJnHDvLXRpiUKm1gmqg7Ku76iUsjDlkSAL4LeKtJq9qRTd5QTsmJmUqy_ClI4WhVV1FpZT2UltTrSTpJoTtz_h_bThNCESEkxAAv7CxyZE0zWY2GdfQHtI9L2asS8w
+
+
+
+
+payload: 
+
+{
+  "sub": "dev-user-123",
+  "name": "Local Developer",
+  "roles": [
+    "admin"
+  ],
+  "iat": 1700000000
+}
+
+
+
+
+claims: 
+
+{
+  "alg": "RS256",
+  "typ": "JWT",
+  "kid": "dev-key-1"
+}
